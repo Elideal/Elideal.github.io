@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-size: 100%;
+}
+
+@font-face{
+    font-family: 'Comfortaa', cursive;
+    src: url('https://fonts.googleapis.com/css?family=Comfortaa');
+}
+
+
+
+
+body {
+    background-color: #16738d;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%231b0f2f' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+    
+}
+
+#frontpage {
+    background-color: azure;
+    min-height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+
+#roller {
+   height: 60%;
+   width: auto;
+   right: 0%;
+   top: 0%;
+   position: absolute;
+}
+
+
+#ArrowDn {
+    width: 8%;
+    height: auto;
+    
+    position: absolute;
+    bottom: 0;
+    right: 46%;
+}
+
+#ArrowUp {
+    width: 8%;
+    height: auto;
+    
+    position: absolute;
+    top: 0;
+    right: 46%;
+}
+
+#gallery {
+    
+    background-color: #54d4dd;
+    
+    position: relative;
+    margin: 0 auto;
+    min-height: 100%;
+    width: 90%;
+    
+}
+
+#GalBck {
+    
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    
+    
+        
+}
+
+#BirdR {
+    
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+            
+}
+
+#BirdL {
+    
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+            
+}
+
+
+#MainBck {
+    height: 100%;
+    width: 100%; 
+}
+
+#Animain {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    
+}
+
+
+
+
+
+
+#Tmb1{
+    position: absolute;
+    left: 2%;
+    width: 5%;
+    height: auto;
+    bottom: 16%;
+    
+}
+
+#Tmb2{
+    position: absolute;
+    left: 15%;
+    width: 6%;
+    height: auto;
+    bottom: 14%;
+}
+#Tmb3{
+    position: absolute;
+    left: 29%;
+    width: 8%;
+    height: auto;
+    bottom: 12%;
+}
+
+#Tmb4{
+    position: absolute;
+    left: 45%;
+    width: 10%;
+    height: auto;
+    bottom: 10%;
+}
+
+#Tmb5{
+    position: absolute;
+    left: 63%;
+    width: 8%;
+    height: auto;
+    bottom: 12%;
+}
+
+#Tmb6{
+    position: absolute;
+    left: 79%;
+    width: 6%;
+    height: auto;
+    bottom: 14%;
+}
+
+#Tmb7{
+    position: absolute;
+    left: 93%;
+    width: 5%;
+    height: auto;
+    bottom: 16%;
+}
+
+#Blend {
+    position: absolute;
+    left: 44%;
+    width: 12%;
+    height: auto;
+    bottom: 10%;
+    z-index: 100;
+    opacity: 0.5;
+}
+
+#ArrowLf{
+    position: absolute;
+    left: 41%;
+    bottom: 1%;
+    height: auto;
+    width: 8%;
+}
+
+#ArrowRg{
+    position: absolute;
+    left: 51%;
+    bottom: 1%;
+    height: auto;
+    width: 8%;
+}
+
+#Switcher{
+    position: fixed;
+    width: 8%;
+    height: auto;
+    left: 5%;
+    top: 1%;
+    z-index: 100;
+}
+
+#VK{
+    position: fixed;
+    width: 5%;
+    height: auto;
+    right: 0%;
+    top: 35%;
+    z-index: 100;
+}
+
+#Facebook{
+    position: fixed;
+    width: 5%;
+    height: auto;
+    right: 0%;
+    top: 14%;
+    z-index: 100;
+}
+
+
+
+
+#Titlebox{
+    position: absolute;
+    background-color: white;
+    height: auto;
+    width: 20%;
+    top: 40%;
+    left: 10%;
+}
+
+#Title{
+    font-size: 4vw;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    color: #1b3a6d;
+    font-weight: 600;
+}
+
+#Greetingbox{
+    position: absolute;
+    /*background-color: white;*/
+    height: auto;
+    width: 96%;
+    top: 60%;
+    z-index: 1000;
+    left: 2%;
+}
+
+#Greeting{
+    font-size: 3vw;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    color: #1b3a6d;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
