@@ -74,25 +74,53 @@
                 //Greeting 
                 var greetRu = "Привет! Я Денис. Это мой сайт-визитка. Используются библиотеки jQuery, jQuery UI, Snap.svg.";
                 var greetEn = "Hello! I'm Denis. This is my business card site.  jQuery, jQuery UI, Snap.svg libraries are used.";
+                
+                
                 //Switcher icon effect
                 $("#Switcher").mouseenter(function(){
                     
-                    $(this).effect("shake", {times:5, distance: 1, direction:"up"}, 200);
+                    $(this).animate({"width":"9%"}, 100);
+                    $(this).css({"filter":"brightness(1.4)",
+                                  });
                  });
                 
-            
+                
+                 $("#Switcher").mouseleave(function(){
+                    
+                     $(this).animate({"width":"8%"}, 100);
+                     $(this).css({"filter":"brightness(1)",
+                                  });
+                  });
+                
                 
             //Contacts icons effects
             $("#VK").mouseenter(function(){
-                     $(this).animate({"width":"6%"}, 60);
-                     $(this).animate({"width":"5%"}, 50);
+                     $(this).animate({"width":"6%"}, 100);
+                     $(this).css({"filter":"brightness(1.4)",
+                                  });
+                     
             }); 
-                
+            
+            $("#VK").mouseleave(function(){
+                     $(this).animate({"width":"5%"}, 100);
+                     $(this).css({"filter":"brightness(1)",
+                                  });
+                     
+            });     
                 
             $("#Facebook").mouseenter(function(){
-                     $(this).animate({"width":"6%"}, 60);
-                     $(this).animate({"width":"5%"}, 50);
+                     $(this).animate({"width":"6%"}, 100);
+                     $(this).css({"filter":"brightness(1.4)",
+                                  });
+                     
+                     
             });
+                
+             $("#Facebook").mouseleave(function(){
+                     $(this).animate({"width":"5%"}, 100);
+                     $(this).css({"filter":"brightness(1)",
+                                  });    
+             });
                 
             //Contacts redirect    
             $("#VK").click(function(){
@@ -332,10 +360,22 @@
                 
                 //Blend (current image) effect
                 $("#Blend").mouseenter(function(){
-                    $('#'+"Tmb"+slots[3]).effect("shake", {times:5, distance: 8, direction:"up"}, 300);
-                    $("#Blend").effect("shake", {times:5, distance: 3, direction:"up"}, 300);
-                 });
-                
+                   
+                    
+                        $(this).animate({"width":"13%"}, 150);
+                        $('#'+"Tmb"+slots[3]).animate({"width":"11%"}, 150);
+                        $(this).animate({"width":"12%"}, 150);
+                        $('#'+"Tmb"+slots[3]).animate({"width":"10%"}, 150);
+                        $(this).css({"filter":"brightness(1.2)"});
+                        $('#'+"Tmb"+slots[3]).css({"filter":"brightness(1.1)"});
+                                                 });
+                $("#Blend").mouseleave(function(){
+                   
+                        $('#'+"Tmb"+slots[3]).css({"filter":"brightness(1)"});
+                                                 
+                        
+                        $(this).css({"filter":"brightness(1)"});
+                                                 });
                 //And Blend (current image) function
                  $("#Blend").click(function(){
                     
@@ -371,16 +411,18 @@
                 
                 //For zooming current image
                 $("#focs").mouseenter(function(){
-                    
-                    $("#focs").effect("shake", {times:5, distance: 2, direction:"up"}, 200);
-                 });
+                            if (!$(this).hasClass('clicked')) {
+                                      $(this).animate({"width":"21%"}, 150);
+                                      $(this).animate({"width":"20%"}, 150); 
+                                                              }                
+                                                 });
                 
                 $("#focs").on('click', function() {
                                  if (!$(this).hasClass('clicked')) { // если класса нет
                                                       $(this).addClass('clicked'); // добавляем класс
                                                       $(this).animate({
                                                                    
-                                                                   "width":"30%",
+                                                                   "width":"35%",
                                                                    "height":"auto",
                                                                    
                                                                    "top":"0"
