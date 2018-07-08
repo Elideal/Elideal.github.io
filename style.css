@@ -200,9 +200,11 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     left: 5%;
     top: 1%;
     z-index: 100;
+    
 }
 
 #VK{
+    
     position: fixed;
     width: 5%;
     height: auto;
@@ -233,7 +235,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 
 #Title{
-    font-size: 4vw;
+    font-size: 3vw;
     text-align: center;
     font-family: 'Comfortaa', cursive;
     color: #1b3a6d;
